@@ -1,7 +1,9 @@
 //Question 1
 function myReverse(str) {
-  // your code here
-  return "";
+  let splitString = str.split("");
+  let reverseArray = splitString.reverse();
+  let joinArray = reverseArray.join("");
+  return joinArray;
 }
 
 //Question 2
